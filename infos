@@ -1,0 +1,5 @@
+## Arreter les services docker ##
+docker stop $(docker ps -aq)
+
+## Reinitialiser les services docker à zéro ##
+docker system prune -af
